@@ -1,0 +1,20 @@
+{
+  "name": "maile",
+  "version": "1.0.5",
+  "description": "maile",
+  "main": "index.js",
+  "bin": {
+    "maile": "bin/maile.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^2.7.0",
+    "qiniu": "^6.1.13",
+    "uuid": "^3.0.1"
+  }
+}
